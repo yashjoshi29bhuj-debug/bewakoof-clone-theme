@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "heading": "Discover trending tees",
+        "subheading": "Comfortable. Bold. You."
+      }
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": ""
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {}
+    }
+  },
+  "order": ["hero","featured","newsletter"]
+}
