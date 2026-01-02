@@ -1,0 +1,11 @@
+Handle,Title,Body (HTML),Vendor,Type,Tags,Published,Option1 Name,Option1 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Requires Shipping,Variant Taxable,Variant Barcode,Image Src,Image Position
+basic-tee,Basic Tee,"Comfortable cotton tee",YourBrand,T-Shirt,"tees,basics",TRUE,Size,S,SKU-BT-S,200,shopify,100,deny,manual,499,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Basic+Tee,1
+basic-tee,Basic Tee,"Comfortable cotton tee",YourBrand,T-Shirt,"tees,basics",TRUE,Size,M,SKU-BT-M,200,shopify,100,deny,manual,499,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Basic+Tee,1
+basic-tee,Basic Tee,"Comfortable cotton tee",YourBrand,T-Shirt,"tees,basics",TRUE,Size,L,SKU-BT-L,200,shopify,100,deny,manual,499,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Basic+Tee,1
+graphic-tee,Graphic Tee,"Bold graphic tee",YourBrand,T-Shirt,"tees,graphic",TRUE,Size,S,SKU-GT-S,220,shopify,50,deny,manual,699,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Graphic+Tee,1
+graphic-tee,Graphic Tee,"Bold graphic tee",YourBrand,T-Shirt,"tees,graphic",TRUE,Size,M,SKU-GT-M,220,shopify,50,deny,manual,699,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Graphic+Tee,1
+graphic-tee,Graphic Tee,"Bold graphic tee",YourBrand,T-Shirt,"tees,graphic",TRUE,Size,L,SKU-GT-L,220,shopify,50,deny,manual,699,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Graphic+Tee,1
+hoodie-essentials,Hoodie Essentials,"Soft pullover hoodie",YourBrand,Hoodie,"hoodies,essentials",TRUE,Size,M,SKU-HD-M,600,shopify,40,deny,manual,1299,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Hoodie,1
+joggers-comfy,Comfy Joggers,"Relaxed fit joggers",YourBrand,Bottoms,"joggers,comfy",TRUE,Size,L,SKU-JG-L,450,shopify,60,deny,manual,899,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Joggers,1
+caps-casual,Casual Cap,"Adjustable cap",YourBrand,Accessories,"caps",TRUE,One Size,OS,SKU-CP-OS,80,shopify,200,deny,manual,299,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Cap,1
+socks-basic,Basic Socks,"Comfort socks pack",YourBrand,Accessories,"socks",TRUE,One Size,OS,SKU-SK-OS,50,shopify,300,deny,manual,199,TRUE,TRUE,,https://via.placeholder.com/800x800?text=Socks,1
