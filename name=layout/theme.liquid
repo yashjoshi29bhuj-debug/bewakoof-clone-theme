@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{% if template.name == 'index' %}{{ shop.name }}{% else %}{{ page_title }} - {{ shop.name }}{% endif %}</title>
+    {{ content_for_header }}
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    <script>window.shop = {currency: "{{ shop.currency }}"};</script>
+  </head>
+  <body class="{{ template.name }}">
+    {% section 'header' %}
+    <main role="main">
+      {{ content_for_layout }}
+    </main>
+    {% section 'footer' %}
+    {{ content_for_footer }}
+    <script src="{{ 'theme.js' | asset_url }}"></script>
+  </body>
+</html>
