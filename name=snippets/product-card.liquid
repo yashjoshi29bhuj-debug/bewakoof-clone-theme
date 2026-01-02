@@ -1,0 +1,15 @@
+<div class="product-card">
+  <a href="{{ product.url }}">
+    {% if product.featured_image %}
+      <img src="{{ product.featured_image | img_url: '400x' }}" alt="{{ product.title }}">
+    {% else %}
+      <img src="{{ 'placeholder-product.jpg' | asset_url }}" alt="{{ product.title }}">
+    {% endif %}
+    <h4>{{ product.title }}</h4>
+    <div class="price">{{ product.price | money }}</div>
+  </a>
+  <form method="post" action="/cart/add">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    <button type="submit" class="btn small">Quick Add</button>
+  </form>
+</div>
