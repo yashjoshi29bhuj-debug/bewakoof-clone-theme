@@ -1,0 +1,11 @@
+{
+  "general": {
+    "search": "Buscar",
+    "cart": "Carrito",
+    "checkout": "Pagar",
+    "add_to_cart": "Agregar al carrito"
+  },
+  "products": {
+    "size_guide": "Guía de tallas"
+  }
+}
