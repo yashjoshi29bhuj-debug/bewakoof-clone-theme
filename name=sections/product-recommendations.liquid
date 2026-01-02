@@ -1,0 +1,8 @@
+<section class="product-recommendations">
+  <h3>Recommended</h3>
+  <div class="recommendations-grid">
+    {% for p in collections.frontpage.products limit:4 %}
+      {% include 'product-card' %}
+    {% endfor %}
+  </div>
+</section>
