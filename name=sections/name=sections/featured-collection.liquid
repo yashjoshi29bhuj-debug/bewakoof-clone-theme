@@ -1,0 +1,9 @@
+<section class="featured-collection">
+  <h2>Featured</h2>
+  <div class="product-grid" data-collection-handle="{{ section.settings.collection }}">
+    {% comment %} Product cards will be client-rendered based on the chosen collection {% endcomment %}
+    {% for product in collections[section.settings.collection].products %}
+      {% include 'product-card' %}
+    {% endfor %}
+  </div>
+</section>
