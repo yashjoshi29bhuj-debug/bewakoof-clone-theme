@@ -1,0 +1,38 @@
+<section class="product-main">
+  <div class="product-gallery">
+    {% for image in product.images %}
+      <img src="{{ image | img_url: '800x' }}" alt="{{ product.title }}">
+    {% endfor %}
+  </div>
+  <div class="product-details">
+    <h1>{{ product.title }}</h1>
+    <div class="price">{{ product.price | money }}</div>
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+      {% if product.options.size > 0 or product.options.size %}
+      <label>Size</label>
+      <select name="id">
+        {% for variant in product.variants %}
+          <option value="{{ variant.id }}">{{ variant.title }} — {{ variant.price | money }}</option>
+        {% endfor %}
+      </select>
+      {% endif %}
+      <button type="submit" class="btn add-to-cart">Add to cart</button>
+    </form>
+
+    <div class="size-guide">
+      <button id="open-size-guide">Size guide</button>
+      <div id="size-guide-modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+          <button class="modal-close">Close</button>
+          <h3>Size guide</h3>
+          <p>Replace with size table</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-description">
+      {{ product.description }}
+    </div>
+  </div>
+</section>
