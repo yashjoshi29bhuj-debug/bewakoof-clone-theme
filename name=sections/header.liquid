@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo">
+      <a href="{{ shop.url }}">
+        {% if settings.logo %}
+          <img src="{{ settings.logo | img_url: '200x' }}" alt="{{ shop.name }}">
+        {% else %}
+          <span class="logo-text">{{ settings.logo_text }}</span>
+        {% endif %}
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/collections/all">Shop</a></li>
+        <li><a href="/collections/new">New</a></li>
+        <li><a href="/pages/about">About</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button id="currency-select">Currency</button>
+      <a href="/cart" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+      <button id="mobile-menu-toggle">Menu</button>
+    </div>
+  </div>
+</header>
